@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 5px 0 20px;
+  color: #777;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-links a span {
+  margin-left: 5px;
+}
+
+
+
+.contact-group {
+  height: 150px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
+.contact-group a {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  font-size: 24px;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-group a span {
+  margin-left: 5px;
+}
+
+/* Estilo para dispositivos móveis (largura de tela menor que 600px) */
+@media screen and (max-width: 600px) {
+  .social-links a {
+    justify-content: center;
+  }
+}
